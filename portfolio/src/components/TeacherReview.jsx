@@ -1,4 +1,4 @@
-export default function SkillCard( { titulo, myScore = 0, maxScore = 10} ) {
+export default function TeacherRe( { titulo, myScore = 0, maxScore = 10} ) {
     return (
         <div className="flex flex-col gap-2.5">
             <h1>{titulo}</h1>
